@@ -9,6 +9,7 @@ import CarLogo from './components/CarLogo'
 import Collection from './components/Collection'
 import Guid from './components/Guid'
 import Service from './components/Service'
+import Review from './components/Review'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Collection/>
       <Guid/>
       <Service/>
+      <Review/>
       {/* <CarBodyType/> */}
     </>
   )

@@ -297,6 +297,59 @@ h4{
   justify-content: center;
   overflow-y: hidden;
 }
+.review{
+   display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  text-align: start;
+  padding: 40px;
+  gap: 20px;
+}
+.reviewNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* outline: 1px solid red; */
+}
+.nav-icon{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.nav-icon button.active{
+  border: 1px solid #ccc;
+  border-radius: 100%;
+  padding: 5px 10px;
+   background-color: black;
+  color: #fefefe;
+  border: 1px solid #fefefe;
+
+}
+.nav-icon button{
+  border: 1px solid #ccc;
+  border-radius: 100%;
+  padding: 5px 10px;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.profile img{
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+.profile .profileText{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
 
 @media screen and (max-width:998px) {
 .guidGrid{
@@ -376,6 +429,16 @@ h1 {
   
 }
 }
+@media screen and (max-width:430px){
+  .reviewNav{
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  flex-direction: column;
+  
+  /* outline: 1px solid red; */
+}
+}
 @media screen and (max-width:368px) {
   .containerlogo{
   gap: 5px;
@@ -394,20 +457,7 @@ h1 {
   overflow-y: hidden;
 }
 }
-@media screen and (max-width:238px) {
-  .containerlogo{
-  gap: 5px;
-  display: grid;
-  grid-template-columns: repeat(1 , 1fr);
-}
-.conatinerbody{
-  gap: 5px;
-  display: grid;
-  grid-template-columns: repeat(1 , 1fr);
-  padding:  0;
-}
 
-}
 @media screen  and (max-width:358px){
   .description{
   display: flex;
@@ -420,9 +470,36 @@ h1 {
   flex-direction: column;
 }
 .collectionGrid{
-  padding: 10px 5px;
+  padding: 10px 5;
   
 }
+.guidCover-md{
+  padding: 40px 20px;
+ 
+}
+.itemContent .icon{
+  width: 50px;
+}
+
+}
+@media screen and (max-width:238px) {
+  .containerlogo{
+  gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(1 , 1fr);
+}
+.conatinerbody{
+  gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(1 , 1fr);
+  padding:  0;
+}
+.guidCover-md{
+  padding: 40px 10px !important;
+ 
+}
+
+
 }
 
 

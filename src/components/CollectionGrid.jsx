@@ -71,7 +71,7 @@ const CollectionGrid = () => {
                 () => setActiveButton(idx) 
             } 
                 active={idx === activeButton }
-                message={grid.label} >  
+                message={grid.label}>  
             </Button >
         ))}
        </div>
