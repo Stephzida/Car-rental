@@ -35,7 +35,7 @@ const CarLogo = () => {
     
     return (
         <div className="carMajor">
-        <Container className='' >
+        <Container>
             <h3>Rent by Brands</h3>
         <div className='containerlogo'> 
             {cars.map((car, index)=>(

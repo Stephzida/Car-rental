@@ -8,7 +8,7 @@
 }
 
 .reusableBtn{
-  width: 110px;
+  width: 130px;
   padding: 5px;
   /* outline: 1px solid #fefefe; */
   background-color: #fefefe;
@@ -17,7 +17,7 @@
   border-radius: 20px;
 }
 .reusableBtn.active{
-   width: 110px;
+   width: 130px;
   padding: 5px;
   outline: 1px solid #fefefe;
   background-color: black;
@@ -50,7 +50,7 @@
   text-align: center;
   color: #fefefe;
   background-color: black;
-  padding: 40px;
+  padding: 20px 5px;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   align-items: center;
@@ -77,7 +77,7 @@ h3{
   width: 100%;
 }
 .carMajor{
-  padding: 70px 0;
+  padding: 20px 5px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -127,7 +127,7 @@ h3{
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 40px 0;
+  padding: 20px 5px;
 }
 .popular-carNav{
   display: flex;
@@ -140,7 +140,7 @@ h3{
 .collectionGrid{
   display: grid;
   grid-template-columns: repeat(3 , 1fr);
-  padding: 20px;
+  padding: 20px 5px;
   margin-top: 20px;
   gap: 10px;
 }
@@ -156,7 +156,7 @@ h3{
 }
 .collectionGridItem:hover{
   box-shadow: 2px 2px 10px #ccc;
-  transform: scale(0.9);
+  transform: scale(1.01);
 }
 .collectionGridItem img{
   border-radius: 5px;
@@ -166,10 +166,10 @@ h3{
   height: 200px;
 }
 .description{
-  display: flex;
-  gap: 10px;
-  padding: 10px;
-  justify-content: space-between;
+  display: grid;
+  gap: 5px;
+  padding: 5px 5px;
+  grid-template-columns: repeat(4 ,1fr);
   align-items: center;
   background-color: #ccc;
   border-radius: 12px;
@@ -203,14 +203,14 @@ h3{
   display: none;
 }
 .guidCover{
-  padding: 50px 10px;
+  padding: 20px 5px;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 .guidCover-md{
-  padding: 40px;
+  padding: 20px 5px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -228,12 +228,12 @@ h3{
   display: flex;
   flex-direction: column;
   gap: 15px;
-  padding: 20px ;
+  padding: 20px 5px;
 }
 .itemContent{
   border: 1px solid #ccc;
   border-radius: 12px;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   align-items: center;
   gap: 15px;
@@ -269,7 +269,7 @@ h4{
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 40px;
+  padding: 20px 10px;
   gap: 20px;
   color: #fefefe;
 }
@@ -303,7 +303,7 @@ h4{
   /* justify-content: center;
   align-items: center; */
   text-align: start;
-  padding: 40px;
+  padding: 20px 10px;
   gap: 20px;
 }
 .reviewNav{
@@ -407,10 +407,10 @@ h1 {
   padding:  0;
 }
 .carMajor{
-  padding: 20px  ;
+  padding: 20px 5px  ;
 }
 .carBody{
-  padding: 20px ;
+  padding: 10px;
 }
 .guidBody{
   background-color: rgb(0, 0, 0 , 0.2);
@@ -459,22 +459,21 @@ h1 {
 }
 
 @media screen  and (max-width:358px){
-  .description{
-  display: flex;
-  gap: 10px;
-  padding: 10px;
-  justify-content: none;
-  align-items: none;
+.description{
+  display: grid;
+  gap: 5px;
+  padding: 5px 5px;
+  grid-template-columns: repeat(2 ,1fr);
+  align-items: center;
   background-color: #ccc;
   border-radius: 12px;
-  flex-direction: column;
 }
 .collectionGrid{
-  padding: 10px 5;
+  padding: 0;
   
 }
 .guidCover-md{
-  padding: 40px 20px;
+  padding: 20px 5px;
  
 }
 .itemContent .icon{
@@ -495,7 +494,7 @@ h1 {
   padding:  0;
 }
 .guidCover-md{
-  padding: 40px 10px !important;
+  padding: 20px 5px !important;
  
 }
 
