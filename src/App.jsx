@@ -10,6 +10,7 @@ import Collection from './components/Collection'
 import Guid from './components/Guid'
 import Service from './components/Service'
 import Review from './components/Review'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Guid/>
       <Service/>
       <Review/>
+      <Footer/>
       {/* <CarBodyType/> */}
     </>
   )

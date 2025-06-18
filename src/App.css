@@ -347,6 +347,76 @@ h4{
   flex-direction: column;
   
 }
+.footerDownload{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  /* border: 1px solid black; */
+  align-items: center;
+   padding:  20px;
+}
+.textDownload{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+
+}
+.downloadBtn{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.a{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border: 1px solid #fefefe;
+  border-radius: 50px;
+  padding: 5px;
+  text-align: start;
+  justify-content: center;
+  width: 150px;
+}
+.a:hover{
+  background-color: goldenrod;
+}
+.store{
+  display: flex;
+  flex-direction: column;
+}
+.footerCover{
+  background-color: black;
+  color: #fefefe;
+}
+.footer{
+  padding: 20px 5px;
+}
+.footerNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #fefefe;
+}
+.footerNav div{
+  display: flex;
+  gap: 20px;
+  padding: 40px 20px;
+  align-items: center;
+  
+}
+.footerNav div a{
+  text-decoration: none;
+ color: #fefefe; 
+}
+.footerNav div a:hover{
+  text-decoration: underline;
+ color: goldenrod; 
+}
+.downloadBtncover{
+  padding: 20px 10px;
+}
 
 
 
@@ -392,6 +462,18 @@ h1 {
 }
 .directions{
  flex-direction: column;
+}
+.footerDownload{
+  display: grid;
+  grid-template-columns: 100%;
+ 
+}
+.footerNav{
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  border-top: 1px solid #fefefe;
+  flex-direction: column;
 }
 }
 @media screen and (max-width:572px) {
@@ -478,6 +560,17 @@ h1 {
 }
 .itemContent .icon{
   width: 50px;
+}
+.downloadBtn{
+  display: flex;
+  gap: 10px;
+  align-items: none;
+  justify-content: none;
+  flex-direction: column;
+}
+.footerNavlink{
+  display: flex;
+  flex-direction: column;
 }
 
 }
